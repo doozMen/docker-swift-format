@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM swift:5.10-jammy
+FROM swiftlang/swift:nightly-6.0-jammy
 
 WORKDIR /swift-format
 RUN env DEBIAN_FRONTEND=noninteractive apt-get update
