@@ -1,5 +1,7 @@
 # docker-swift-format
 
+> Warning: as of swift 6 swiftlang/swift-format is included on macos and linux in the tooling of swift. You no longer have to build it separate. Just use swift format (yes with a space) and all good. This makes the use case for this repo obsolete
+
 [![Docker Hub](https://img.shields.io/docker/v/mtgto/swift-format)](https://hub.docker.com/r/mtgto/swift-format/)
 
 Unofficial docker image of [apple/swift-format](https://github.com/apple/swift-format).
